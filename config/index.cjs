@@ -33,7 +33,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1997', date: '09-14',
+          type: '生日', name: '宝贝', year: '1997', date: '09-14',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '05-21',
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2023-05-21' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
@@ -51,11 +51,11 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'KGjDywyo2OmvXNhj_LNR3tlwh5puDdnKwkwV-0aDQYU',
+  CALLBACK_TEMPLATE_ID: '8jGJvsEwLwQIm6OcQ0s4mghYabTZM30E1zw_GezLRhM',
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '宝贝',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oH4Ob6FdFv5JCyx0_Anr2g-KrCiw',
     }
